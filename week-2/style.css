@@ -1,0 +1,144 @@
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+
+.title
+{
+	padding: 50px;
+	height: 320px;
+	width: 100%;
+	background:
+		url("http://placekitten.com/g/1400/800")
+		no-repeat center top;
+
+	background-size: cover;
+	color: white;
+	overflow: hidden;
+}
+
+.title h1
+{
+	font-weight: 300;
+	margin: 0px;
+}
+
+.title p
+{
+	margin: 0px;
+}
+
+.links
+{
+	padding: 10px 20px 10px 20px;
+	background-color: black;
+	width: 25%;
+	color: white;
+	float: right;
+}
+
+.links h3
+{
+	letter-spacing: 1px;
+}
+
+.links li
+{
+	font-size: 14px;
+	list-style: none;
+}
+
+.blog
+{
+	margin-right: 25%;
+	width: 75%;
+	border-right: thin solid #D3D3D3;
+}
+
+.blog h2
+{
+	line-height: 1;
+	padding: 20px;
+	background-color: white;
+}
+
+article
+{
+	padding: 40px 20px 40px 20px;
+	border-top: thin solid #D3D3D3;
+}
+
+.blog article:nth-child(odd)
+{
+	background-color: #F0F0F0;
+}
+
+.blog article:nth-child(even)
+{
+	background-color: white;
+}
+
+.blog article img
+{
+	border: thin solid #D3D3D3;
+	border-radius: 25px;
+}
+
+.blog article:nth-child(even) img
+{
+	margin: 0px 0px 0px 20px;
+	float: right;
+}
+
+.blog article:nth-child(odd) img
+{
+	margin: 0px 20px 0px 0px;
+	float: left;
+}
+
+a
+{
+	color: #2BA6CB;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #2795B6;
+	text-decoration: underline;
+}
+
+body
+{
+	background-color: gainsboro;
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 200;
+}
+
+h2, h3
+{
+	margin: 0px;
+}
+
+h6
+{
+	margin: 0px 0px 20px 0px;
+}
+
+li
+{
+	margin: 0px;
+}
+
+ul
+{
+	padding: 0px;
+}
+
+p
+{
+	margin-bottom: 1.25em;
+}
